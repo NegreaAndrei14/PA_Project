@@ -1,0 +1,49 @@
+\hypertarget{adds_8h}{}\section{C\+:/\+Users/\+Andrei/\+Desktop/\+Hanoi Modular/adds.h File Reference}
+\label{adds_8h}\index{C\+:/\+Users/\+Andrei/\+Desktop/\+Hanoi Modular/adds.\+h@{C\+:/\+Users/\+Andrei/\+Desktop/\+Hanoi Modular/adds.\+h}}
+
+
+C library implementation for solving the hanoi towers problem.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{adds_8h_a5d5be1bea75860ce2313d6bf01d01e4b}{write}} (int a, int b)
+\item 
+int \mbox{\hyperlink{adds_8h_a76c8b704b02c57cd3b8b008850e8d97f}{hanoi}} (int n, int a, int b, int c)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+C library implementation for solving the hanoi towers problem. 
+
+Created by Negrea Andrei Adelin on 01/06/18.
+
+If n = 1 we will do the mve a-\/$>$b . If n = 2 we will do the move a-\/$>$c,c-\/$>$b.\+If n$>$2 we will do the basic ivide Ed Impera algorithm 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{adds_8h_a76c8b704b02c57cd3b8b008850e8d97f}\label{adds_8h_a76c8b704b02c57cd3b8b008850e8d97f}} 
+\index{adds.\+h@{adds.\+h}!hanoi@{hanoi}}
+\index{hanoi@{hanoi}!adds.\+h@{adds.\+h}}
+\subsubsection{\texorpdfstring{hanoi()}{hanoi()}}
+{\footnotesize\ttfamily int hanoi (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{a,  }\item[{int}]{b,  }\item[{int}]{c }\end{DoxyParamCaption})}
+
+n-\/1 move from rod A to rod C, using rod B
+
+write the output in the file output\+\_\+method2.\+txt
+
+n-\/1 move from rod C to rod B, using rod A 
+
+Definition at line 9 of file adds.\+c.
+
+\mbox{\Hypertarget{adds_8h_a5d5be1bea75860ce2313d6bf01d01e4b}\label{adds_8h_a5d5be1bea75860ce2313d6bf01d01e4b}} 
+\index{adds.\+h@{adds.\+h}!write@{write}}
+\index{write@{write}!adds.\+h@{adds.\+h}}
+\subsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void write (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+the file output\+\_\+method2 is used to store the solution for the 2nd implementation. 
+
+Definition at line 7 of file write.\+c.
+
